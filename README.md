@@ -16,21 +16,31 @@ e.g., Given e/E, it will draw:
         A
 ```
 
-Usage:
+## Dependencies
 
-To run the program:
+Ruby 2.0.0 +
 
-./go.sh 
+## Usage
 
-./go.sh E
+### To run the program:
 
-To run the test cases
+*./go.sh* or
 
-./go.sh -t
+*./go.sh <a character [a-zA-z], e.g, E, e>*
 
-To read the help text
+### To run the test cases
 
-./go.sh -h
+*./go.sh -t* or
+
+*./go.sh --test*
+
+### To read the help text
+
+*./go.sh -h* or 
+
+*./go.sh --help*
+
+
 
 
 

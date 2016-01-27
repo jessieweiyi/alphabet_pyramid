@@ -1,4 +1,7 @@
 class AlphabetPyramid
+
+  attr_accessor :int_alphabet
+	
   UPPER_A = 'A'.ord
   UPPER_LOWER_DIFF = 'a'.ord - 'A'.ord
 

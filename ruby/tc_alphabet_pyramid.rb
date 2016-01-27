@@ -102,6 +102,14 @@ class TestAlphabetPyramid < MiniTest::Test
     end
   end
 
+  def test_initialization
+    assert_equal(65, AlphabetPyramid.new('A').int_alphabet)
+    assert_equal(65, AlphabetPyramid.new('a').int_alphabet)
+
+    assert_equal(90, AlphabetPyramid.new('Z').int_alphabet)
+    assert_equal(90, AlphabetPyramid.new('z').int_alphabet)
+  end 
+
   def test_uppercase
    actual = with_captured_stdout_as_array { AlphabetPyramid.new('E').print_pyramid }
 
